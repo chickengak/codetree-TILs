@@ -1,1 +1,2 @@
-print(str(n*n)+'\ntity' if (n := int(input())) < 5 else n*n)
+n = int(input())
+print(str(n*n)+'\ntity' if n < 5 else n*n)
