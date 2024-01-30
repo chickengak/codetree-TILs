@@ -1,0 +1,1 @@
+print('t' if (a:=input())=='1' else 'f')
