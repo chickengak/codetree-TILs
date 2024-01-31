@@ -1,0 +1,1 @@
+print(int(bool((a:=int(input()))%3)^bool(a%5)))
