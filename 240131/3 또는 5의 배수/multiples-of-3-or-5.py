@@ -1,0 +1,1 @@
+print('NO' if(a:=int(input()))%3 else 'YES', 'NO' if a%5 else 'YES', sep='\n' )
