@@ -1,0 +1,1 @@
+print('no' if (n:=int(input())) < 1000 else 'mask' if n < 3000 else 'book')
