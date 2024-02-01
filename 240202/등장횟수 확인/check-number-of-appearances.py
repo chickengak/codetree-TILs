@@ -1,0 +1,1 @@
+print(len([i for i in range(5) if not (n:=int(input()))%2]))
