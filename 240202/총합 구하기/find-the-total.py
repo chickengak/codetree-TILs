@@ -1,0 +1,1 @@
+print(sum([n for n in range(l[0], l[1]+1) if (not n%6) and n%8]) if (l:=list(map(int, input().split()))) else 0)
