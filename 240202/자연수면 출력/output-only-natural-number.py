@@ -1,0 +1,1 @@
+print(''.join([str(l[0]) for _ in range(l[1])]) if (l:=list(map(int, input().split())))[0]>0 else 0)
