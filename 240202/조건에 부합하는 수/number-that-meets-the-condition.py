@@ -1,0 +1,1 @@
+print(' '.join([str(n) for n in range(1, a+1) if not(not(n%2) and n%4) and (n//8)%2 and (n%7)>=4]) if (a:=int(input())) else 0)
