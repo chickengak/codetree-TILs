@@ -1,0 +1,1 @@
+print((n:=('*'*(n:=int(input())) + '\n')*n), n, sep='\n')
