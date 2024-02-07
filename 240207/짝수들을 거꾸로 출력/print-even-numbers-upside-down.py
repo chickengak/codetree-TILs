@@ -1,0 +1,1 @@
+print(' '.join([str(n) for n in list(map(int, input().split())) if not n%2][::-1]) if (garbage:=input()) else None)
