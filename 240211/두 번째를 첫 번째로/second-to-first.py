@@ -1,0 +1,1 @@
+print((s:=input()).replace(s[1], s[0]))
