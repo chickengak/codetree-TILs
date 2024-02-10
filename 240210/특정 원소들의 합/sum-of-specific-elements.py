@@ -1,0 +1,1 @@
+print(sum([sum(list(map(int, input().split()))[:i]) for i in range(1, 5)]))
