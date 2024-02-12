@@ -9,4 +9,4 @@ for row in range(1, n):
             mat[row][col] += mat[row-1][col]
         else:
             mat[row][col] += min((mat[row-1][col]), (mat[row][col+1]))
-print(min(mat[-1]))
+print(mat[-1][0])
