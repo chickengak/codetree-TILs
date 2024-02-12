@@ -1,0 +1,1 @@
+print('z' if (c:=ord(input())) == 97 else chr(c-1))
