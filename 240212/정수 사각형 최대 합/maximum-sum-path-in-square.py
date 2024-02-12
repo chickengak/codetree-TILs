@@ -1,5 +1,8 @@
 n = int(input())
 mat = [ list(map(int, input().split())) for _ in range(n)]
+for i in range(1, n):
+    mat[0][i] += mat[0][i-1]
+
 for row in range(1, n):
     for col in range(0, n):
         if col == 0:
