@@ -1,0 +1,1 @@
+print(*[chr(ord(c)+32) if 64<ord(c)<91 else chr(ord(c)-32) for c in input()], sep='')
