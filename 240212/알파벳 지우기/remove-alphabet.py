@@ -1,0 +1,1 @@
+print(int(''.join([c for c in input() if not((64<ord(c)<91) or (96<ord(c)<123))])) + int(''.join([c for c in input() if not((64<ord(c)<91) or (96<ord(c)<123))])))
