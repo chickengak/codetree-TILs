@@ -18,9 +18,8 @@ for i in range(len(n)):
 res = []
 exp = 1
 while num:
-    share, remainder = divmod(num, (B**exp))
+    share, remainder = divmod(num, B)
     res.append(remainder)
     num = share
-    exp += 1
 
 print(''.join([d[r] for r in res[::-1]]))
